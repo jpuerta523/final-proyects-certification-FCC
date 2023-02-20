@@ -42,8 +42,5 @@ btn.addEventListener("click",()=>{
     }else{
         resultadoNegativo.classList.remove("d-none")
         resultadoNegativo.textContent = `La cadena de texto "${str}" y su inverso "${reverseWord(str)}" son diferentes por lo que NO es un Palídromo` 
-    }
-        
-        
-
+    }            
 }) 
