@@ -54,8 +54,6 @@ function convertToRoman(num) {
         return romanNumber[ans[0]*1000] + romanNumber[ans[1]*100] + romanNumber[ans[2]*10] + romanNumber[ans[3]]
     }   
 }
-
-    
     
 /* boton calcular */
 btn.addEventListener("click",()=>{
